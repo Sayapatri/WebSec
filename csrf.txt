@@ -33,7 +33,7 @@ so now the attacker can construct a web page containing the malicious code which
           </body>
 </html>
 
- If a victim user visits the attacker's web page, the following will happen:
+ If a victim user visits the attacker's web page, the following will happen:..
 
     The attacker's page will trigger an HTTP request to the sthakapil.com.np web site.
     If the user is logged in to the sthakapil.com.np, their browser will automatically include their session cookie in the request
