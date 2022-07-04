@@ -1,4 +1,4 @@
-cross origin resourse sharing(CORS)
+UIcross origin resourse sharing(CORS)
 
 controlled access to resources outside of a given domain
 
@@ -31,4 +31,4 @@ to the vulnerable website
     };
 </script>
 view the access log to get the user credentials and api key (for example)
- you can also create your own server using python in vscode.
+ you can also create your own server using python in vscode....
