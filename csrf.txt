@@ -3,8 +3,8 @@ behalf.
 how does it work
 to perform the successful CSRF attack three conditions must be satisfied 
 1. privileged actions
-2. Cookie-based session handling
-3.doesn't contain any unpredictable parameter
+2. Cookie-based session handling.
+3.doesn't contain any unpredictable parameter.
 
 Lets take an example of an HTTP request where an user wants to change his email address//
 
