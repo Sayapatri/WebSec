@@ -1,4 +1,4 @@
-UI cross origin resourse sharing(CORS)
+UI cross origin resourse sharing(CORS)....
 
 controlled access to resources outside of a given domain
 
