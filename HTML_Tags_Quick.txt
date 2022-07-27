@@ -9,7 +9,7 @@
 <hr> Defines a thematic change in the content
 <!--...--> Defines a comment
 
-Formatting
+Formatting..
 Tag Description
 <acronym> Not supported in HTML5. Use <abbr> instead.
 Defines an acronym
