@@ -1,2 +1,3 @@
 # WebSec
-the right direction => Server-side topics =>Client-side topics
+## The right direction
+Server-side topics =>Client-side topics
