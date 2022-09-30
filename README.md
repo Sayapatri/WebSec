@@ -1,2 +1,2 @@
 # WebSec
-##App
+the right direction => Server-side topics =>Client-side topics
