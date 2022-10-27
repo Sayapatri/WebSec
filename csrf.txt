@@ -38,4 +38,4 @@ so now the attacker can construct a web page containing the malicious code which
     The attacker's page will trigger an HTTP request to the sthakapil.com.np web site.
     If the user is logged in to the sthakapil.com.np, their browser will automatically include their session cookie in the request
     (assuming SameSite cookies are not being used).
-    The web site will process the request in the normal way, treat it as having been made by the victim user, and change their email address.
+    The web site will process the request in the normal way, treat it as having been made by the victim user, and change their email address.d
