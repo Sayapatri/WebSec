@@ -18,7 +18,7 @@ email=admin@sthakapil.com.np
 
 
 so as stated in no.1,this action subjets to attacker's interest where an user wants his email address to be changed
-The application uses a session cookie to identify which user issued the request.and The attacker can easily determine the values of
+The applicatiodn uses a session cookie to identify which user issued the request.and The attacker can easily determine the values of
 the request parameters that are needed to perform the action. 
 
 so now the attacker can construct a web page containing the malicious code which executes upon the user's interecation, 
