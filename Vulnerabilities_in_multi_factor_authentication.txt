@@ -7,3 +7,4 @@ Go to your account page and make a note of the URL.
 Log out of your account.
 Log in using the victim's credentials.
 When prompted for the verification code, manually change the URL to navigate to /my-account.
+..
