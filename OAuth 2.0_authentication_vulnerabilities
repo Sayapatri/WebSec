@@ -6,3 +6,7 @@ An authorization framework that enables websites and web applications to request
  The OAuth grant type determines the exact sequence of steps that are involved in the OAuth process. 
  The grant type also affects how the client application communicates with the OAuth service at each stage, including how the access token itself is sent.
  For this reason, grant types are often referred to as "OAuth flows".
+"authorization code" and "implicit" grant types as these are by far the most common.
+
+ the client application has to specify which data it wants to access and what kind of operations it wants to perform. 
+ It does this using the scope parameter of the authorization
