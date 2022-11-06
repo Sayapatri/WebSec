@@ -1,1 +1,8 @@
 An authorization framework that enables websites and web applications to request limited access to a user's account on another application..
+
+
+ OAuth grant type?
+ =================
+ The OAuth grant type determines the exact sequence of steps that are involved in the OAuth process. 
+ The grant type also affects how the client application communicates with the OAuth service at each stage, including how the access token itself is sent.
+ For this reason, grant types are often referred to as "OAuth flows".
