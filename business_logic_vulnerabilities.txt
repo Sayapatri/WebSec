@@ -3,3 +3,4 @@ allow an attacker to elicit unintended behavior. This potentially enables attack
 These flaws are generally the result of failing to anticipate unusual application states that may occur and, consequently, failing to handle them safely.
 
 >>Business logic vulnerabilities often arise because the design and development teams make flawed assumptions about how users will interact with the application. <<
+Logic flaws are particularly common in overly complicated systems that even the development team themselves do not fully understand
