@@ -4,3 +4,6 @@ These flaws are generally the result of failing to anticipate unusual applicatio
 
 >>Business logic vulnerabilities often arise because the design and development teams make flawed assumptions about how users will interact with the application. <<
 Logic flaws are particularly common in overly complicated systems that even the development team themselves do not fully understand
+
+
+ As with all logic flaws, try to identify what assumptions the developers have made and where the attack surface lies. You can then look for ways of violating these assumptions.
