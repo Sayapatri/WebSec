@@ -7,3 +7,5 @@ Logic flaws are particularly common in overly complicated systems that even the 
 
 
  As with all logic flaws, try to identify what assumptions the developers have made and where the attack surface lies. You can then look for ways of violating these assumptions.
+
+Authentication bypass via flawed state machine
