@@ -1,4 +1,4 @@
-process of verifying the identity of a given user or client
+process of verifying the identity of a given user or client.
 authentication mechanisms arise in one of two ways:
 
 The authentication mechanisms are weak because they fail to adequately protect against brute-force attacks.
