@@ -4,7 +4,7 @@ for back-end systems, and sensitive operating system files. In some cases,
 an attacker might be able to write to arbitrary files on the server, allowing them to modify application data or 
 behavior, and ultimately take full control of the server.
 
-
+..
 https://insecure-website.com/loadImage?filename=../../../etc/passwd
 /var/www/images/../../../etc/passwd
 You might be able to use nested traversal sequences, such as ....// or ....\/, which will revert to simple traversal sequences when the inner sequence is stripped.
