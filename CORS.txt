@@ -2,7 +2,7 @@ UI cross origin resourse sharing(CORS).....,,
 
 controlled access to resources outside of a given domain.
 
-extends and adds flexibility to the same origin policy (SOP).
+extends and adds flexibility to the same origin policy (SOP)...
 
 same origin policy 
 malicious cross-domain interactions, such as one website stealing private data from another
