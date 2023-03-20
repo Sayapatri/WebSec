@@ -2,3 +2,4 @@ How do XXE vulnerabilities arise?
 Some applications use the XML format to transmit data between the browser and the server. Applications that do this virtually a
 lways use a standard library or platform API to process the XML data on the server. XXE vulnerabilities arise because the XML specification contains various potentially dangerous features, and standard parsers support these features even
 if they are not normally used by the application.
+..
